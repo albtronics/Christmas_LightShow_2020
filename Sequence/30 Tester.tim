@@ -13530,18 +13530,6 @@
       <TypeId>7b791008-56a2-4bff-8ce3-a7fb89ea4637</TypeId>
     </EffectNodeSurrogate>
     <EffectNodeSurrogate>
-      <InstanceId>d55a5f79-a027-4d17-8969-8ec9bd08657b</InstanceId>
-      <StartTime>PT19.1759118S</StartTime>
-      <TargetNodes>
-        <ChannelNodeReferenceSurrogate>
-          <Name>P5</Name>
-          <NodeId>98d9d7bc-283b-4192-ba49-36d16dc47fd6</NodeId>
-        </ChannelNodeReferenceSurrogate>
-      </TargetNodes>
-      <TimeSpan>PT0.208737S</TimeSpan>
-      <TypeId>7b791008-56a2-4bff-8ce3-a7fb89ea4637</TypeId>
-    </EffectNodeSurrogate>
-    <EffectNodeSurrogate>
       <InstanceId>10cd99ca-3f3d-4b7f-a21b-a3df1adec6ba</InstanceId>
       <StartTime>PT19.1759118S</StartTime>
       <TargetNodes>
@@ -13560,6 +13548,18 @@
         <ChannelNodeReferenceSurrogate>
           <Name>P3</Name>
           <NodeId>2aa43063-c71b-4d7f-b563-e1cf715a36a9</NodeId>
+        </ChannelNodeReferenceSurrogate>
+      </TargetNodes>
+      <TimeSpan>PT0.208737S</TimeSpan>
+      <TypeId>7b791008-56a2-4bff-8ce3-a7fb89ea4637</TypeId>
+    </EffectNodeSurrogate>
+    <EffectNodeSurrogate>
+      <InstanceId>d55a5f79-a027-4d17-8969-8ec9bd08657b</InstanceId>
+      <StartTime>PT19.1759118S</StartTime>
+      <TargetNodes>
+        <ChannelNodeReferenceSurrogate>
+          <Name>P5</Name>
+          <NodeId>98d9d7bc-283b-4192-ba49-36d16dc47fd6</NodeId>
         </ChannelNodeReferenceSurrogate>
       </TargetNodes>
       <TimeSpan>PT0.208737S</TimeSpan>
@@ -14211,11 +14211,11 @@
     <SourceName i:nil="true" />
   </_selectedTimingProviderSurrogate>
   <DefaultPlaybackEndTime i:nil="true" />
-  <DefaultPlaybackStartTime>PT18.5372034S</DefaultPlaybackStartTime>
+  <DefaultPlaybackStartTime>PT0.0249996S</DefaultPlaybackStartTime>
   <DefaultRowHeight>32</DefaultRowHeight>
   <DefaultSplitterDistance>0</DefaultSplitterDistance>
   <LabeledMarkCollections xmlns:d1p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <RowSettings xmlns:d1p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <TimePerPixel>PT0.0124998S</TimePerPixel>
-  <VisibleTimeStart>PT9.8873418S</VisibleTimeStart>
+  <VisibleTimeStart>PT0S</VisibleTimeStart>
 </TimedSequenceData>

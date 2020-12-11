@@ -14211,11 +14211,11 @@
     <SourceName i:nil="true" />
   </_selectedTimingProviderSurrogate>
   <DefaultPlaybackEndTime i:nil="true" />
-  <DefaultPlaybackStartTime>PT18.6747012S</DefaultPlaybackStartTime>
+  <DefaultPlaybackStartTime>PT0.0249996S</DefaultPlaybackStartTime>
   <DefaultRowHeight>32</DefaultRowHeight>
   <DefaultSplitterDistance>0</DefaultSplitterDistance>
   <LabeledMarkCollections xmlns:d1p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <RowSettings xmlns:d1p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <TimePerPixel>PT0.0124998S</TimePerPixel>
-  <VisibleTimeStart>PT9.8873418S</VisibleTimeStart>
+  <VisibleTimeStart>PT22.1014469S</VisibleTimeStart>
 </TimedSequenceData>
