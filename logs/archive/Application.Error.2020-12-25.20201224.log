@@ -1,0 +1,70 @@
+12/24/2020 03:22:35.444 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+12/24/2020 03:24:35.525 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+12/24/2020 03:26:35.538 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+12/24/2020 03:28:35.542 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+12/24/2020 16:09:54.406 [VixenModules.Output.GenericSerial.Module] COM4 could not be opened because The port 'COM4' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+12/24/2020 16:09:54.422 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+12/24/2020 16:11:54.423 [VixenModules.Output.GenericSerial.Module] COM4 could not be opened because The port 'COM4' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+12/24/2020 16:11:54.443 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+12/24/2020 16:13:54.432 [VixenModules.Output.GenericSerial.Module] COM4 could not be opened because The port 'COM4' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+12/24/2020 16:13:54.451 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+12/24/2020 16:15:54.450 [VixenModules.Output.GenericSerial.Module] COM4 could not be opened because The port 'COM4' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+12/24/2020 16:15:54.460 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+12/24/2020 17:51:14.920 [VixenModules.Output.GenericSerial.Module] COM4 could not be opened because The port 'COM4' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+12/24/2020 17:51:14.936 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+12/24/2020 17:53:15.654 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+12/24/2020 17:55:15.689 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+12/24/2020 17:57:15.718 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+12/24/2020 17:59:15.726 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+12/24/2020 18:05:13.490 [VixenModules.Output.GenericSerial.Module] An error occurred writing to the serial port. System.IO.IOException: A device which does not exist was specified.
+
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream.EndWrite(IAsyncResult asyncResult)
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at VixenModules.Output.GenericSerial.Module.UpdateState(Int32 chainIndex, ICommand[] outputStates)    at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream.EndWrite(IAsyncResult asyncResult)
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at VixenModules.Output.GenericSerial.Module.UpdateState(Int32 chainIndex, ICommand[] outputStates)
+12/24/2020 18:05:13.539 [VixenModules.Output.GenericSerial.Module] An error occurred writing to the serial port. System.IO.IOException: A device which does not exist was specified.
+
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream.EndWrite(IAsyncResult asyncResult)
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at VixenModules.Output.GenericSerial.Module.UpdateState(Int32 chainIndex, ICommand[] outputStates)    at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream.EndWrite(IAsyncResult asyncResult)
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at VixenModules.Output.GenericSerial.Module.UpdateState(Int32 chainIndex, ICommand[] outputStates)
+12/24/2020 18:57:20.324 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+12/24/2020 18:59:20.351 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+12/24/2020 19:01:20.370 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+12/24/2020 19:03:20.398 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+12/24/2020 20:56:20.849 [VixenModules.Output.GenericSerial.Module] An error occurred writing to the serial port. System.IO.IOException: A device which does not exist was specified.
+
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream.EndWrite(IAsyncResult asyncResult)
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at VixenModules.Output.GenericSerial.Module.UpdateState(Int32 chainIndex, ICommand[] outputStates)    at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream.EndWrite(IAsyncResult asyncResult)
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at VixenModules.Output.GenericSerial.Module.UpdateState(Int32 chainIndex, ICommand[] outputStates)
+12/24/2020 20:56:20.895 [VixenModules.Output.GenericSerial.Module] An error occurred writing to the serial port. System.IO.IOException: A device which does not exist was specified.
+
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream.EndWrite(IAsyncResult asyncResult)
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at VixenModules.Output.GenericSerial.Module.UpdateState(Int32 chainIndex, ICommand[] outputStates)    at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream.EndWrite(IAsyncResult asyncResult)
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at VixenModules.Output.GenericSerial.Module.UpdateState(Int32 chainIndex, ICommand[] outputStates)
+12/24/2020 20:56:49.808 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+12/24/2020 20:58:49.820 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+12/24/2020 21:00:49.825 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+12/24/2020 21:02:49.847 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
