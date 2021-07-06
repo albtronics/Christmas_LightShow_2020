@@ -1,0 +1,6 @@
+12/12/2020 17:42:50.276 [VixenApplication.Program] An application error occurred. Please contact the Vixen Dev Team with the following information:
+
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at VixenModules.Editor.TimedSequenceEditor.TimedSequenceEditorForm.AddAudioAssociation(Boolean showWarning)
+   at VixenModules.Editor.TimedSequenceEditor.TimedSequenceEditorForm.ShowInvalidAudioDialog(String audioPath)    at VixenModules.Editor.TimedSequenceEditor.TimedSequenceEditorForm.AddAudioAssociation(Boolean showWarning)
+   at VixenModules.Editor.TimedSequenceEditor.TimedSequenceEditorForm.ShowInvalidAudioDialog(String audioPath)
