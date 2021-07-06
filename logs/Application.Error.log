@@ -1,12 +1,128 @@
-12/12/2020 07:43:50.691 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
-12/12/2020 07:45:50.798 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
-12/12/2020 07:47:50.807 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
-12/12/2020 07:49:50.835 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
-12/12/2020 09:49:56.585 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
-12/12/2020 09:51:56.600 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
-12/12/2020 09:53:56.619 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
-12/12/2020 09:55:56.632 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
-12/12/2020 16:52:39.036 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
-12/12/2020 16:54:39.068 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
-12/12/2020 16:56:39.071 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
-12/12/2020 16:58:39.100 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+01/15/2021 16:45:02.224 [VixenModules.Output.GenericSerial.Module] COM4 could not be opened because The port 'COM4' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+01/15/2021 16:45:02.324 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+01/15/2021 16:45:22.077 [VixenModules.Output.GenericSerial.Module] COM4 could not be opened because The port 'COM4' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+01/15/2021 16:45:22.093 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+01/15/2021 16:46:13.841 [VixenModules.Output.GenericSerial.Module] COM4 could not be opened because The port 'COM4' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+01/15/2021 16:48:13.871 [VixenModules.Output.GenericSerial.Module] COM4 could not be opened because The port 'COM4' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+01/15/2021 16:50:13.864 [VixenModules.Output.GenericSerial.Module] COM4 could not be opened because The port 'COM4' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+01/15/2021 16:52:13.889 [VixenModules.Output.GenericSerial.Module] COM4 could not be opened because The port 'COM4' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+01/15/2021 16:52:47.487 [Vixen.Module.Effect.EffectModuleInstanceBase] Error rendering Balls on element PIXEL System.ArgumentOutOfRangeException: 'minValue' cannot be greater than maxValue.
+Parameter name: minValue
+   at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at VixenModules.Effect.Balls.Balls.CreateBalls(Double minSpeed, Double maxSpeed, Int32 maxRandomTime)
+   at VixenModules.Effect.Balls.Balls.RenderEffect(Int32 frame, IPixelFrameBuffer frameBuffer)
+   at VixenModules.Effect.Effect.PixelEffectBase.RenderNodeByStrings(IElementNode node, EffectIntents& effectIntents)
+   at VixenModules.Effect.Effect.PixelEffectBase._PreRender(CancellationTokenSource tokenSource)
+   at Vixen.Module.Effect.EffectModuleInstanceBase.PreRender(CancellationTokenSource cancellationToken)    at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at VixenModules.Effect.Balls.Balls.CreateBalls(Double minSpeed, Double maxSpeed, Int32 maxRandomTime)
+   at VixenModules.Effect.Balls.Balls.RenderEffect(Int32 frame, IPixelFrameBuffer frameBuffer)
+   at VixenModules.Effect.Effect.PixelEffectBase.RenderNodeByStrings(IElementNode node, EffectIntents& effectIntents)
+   at VixenModules.Effect.Effect.PixelEffectBase._PreRender(CancellationTokenSource tokenSource)
+   at Vixen.Module.Effect.EffectModuleInstanceBase.PreRender(CancellationTokenSource cancellationToken)
+01/15/2021 16:52:47.537 [Vixen.Module.Effect.EffectModuleInstanceBase] Error rendering Effect Property settings: StringOrientation: Vertical
+BallType: Bounce
+BallFill: Fade
+CenterSpeedCurve: Library Curve False, Points: [(0,20: )],[(100,20: )],
+SpeedVariationCurve: Library Curve False, Points: [(0,5: )],[(100,5: )],
+SizeCurve: Library Curve False, Points: [(0,30: )],[(100,30: )],
+BallCountCurve: Library Curve False, Points: [(0,7: )],[(100,7: )],
+BallEdgeWidthCurve: Library Curve False, Points: [(0,1: )],[(100,1: )],
+RandomMaxCurve: Library Curve False, Points: [(0,50: )],[(100,50: )],
+RandomMovement: False
+RandomRadius: False
+Collide: False
+ChangeCollideColor: True
+Colors: System.Collections.Generic.List`1[VixenModules.App.ColorGradients.ColorGradient]
+BackgroundColor: VixenModules.App.ColorGradients.ColorGradient
+LevelCurve: Library Curve False, Points: [(0,100: )],[(100,100: )],
+Information: Visit the Vixen Lights website for more information on this effect.
+InformationLink: http://www.vixenlights.com/vixen-3-documentation/sequencer/effects/balls/
+ModuleData: VixenModules.Effect.Balls.BallData
+StringCount: 1
+MaxPixelsPerString: 100
+TargetPositioning: Strings
+BaseColor: Color [Transparent]
+BaseLevelCurve: Library Curve False, Points: [(0,100: )],[(100,100: )],
+UseBaseColor: False
+HasDiscreteColors: False
+IsDirty: True
+TargetNodes: Vixen.Sys.ElementNode[]
+TimeSpan: 00:00:02
+StartTime: 00:00:08.1123702
+ParameterValues: System.Object[]
+EffectName: Balls
+EffectGroup: Pixel
+Parameters: 
+PropertyDependencies: System.Guid[]
+SupportsMedia: False
+SupportsExtensions: System.String[]
+Media: (null)
+SupportsMarks: False
+MarkCollections: (null)
+ForceGenerateVisualRepresentation: False
+InstanceId: 0e948c82-e704-42db-91bd-654bd118f671
+TypeId: 59ba6e70-dc4d-4108-b287-72adf0fd4f7c
+StaticModuleData: (null)
+Descriptor: VixenModules.Effect.Balls.BallDescriptor
+ 
+01/15/2021 16:52:48.807 [Vixen.Module.Effect.EffectModuleInstanceBase] Error rendering Balls on element PIXEL System.ArgumentOutOfRangeException: 'minValue' cannot be greater than maxValue.
+Parameter name: minValue
+   at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at VixenModules.Effect.Balls.Balls.CreateBalls(Double minSpeed, Double maxSpeed, Int32 maxRandomTime)
+   at VixenModules.Effect.Balls.Balls.RenderEffect(Int32 frame, IPixelFrameBuffer frameBuffer)
+   at VixenModules.Effect.Effect.PixelEffectBase.RenderNodeByStrings(IElementNode node, EffectIntents& effectIntents)
+   at VixenModules.Effect.Effect.PixelEffectBase._PreRender(CancellationTokenSource tokenSource)
+   at Vixen.Module.Effect.EffectModuleInstanceBase.PreRender(CancellationTokenSource cancellationToken)    at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at VixenModules.Effect.Balls.Balls.CreateBalls(Double minSpeed, Double maxSpeed, Int32 maxRandomTime)
+   at VixenModules.Effect.Balls.Balls.RenderEffect(Int32 frame, IPixelFrameBuffer frameBuffer)
+   at VixenModules.Effect.Effect.PixelEffectBase.RenderNodeByStrings(IElementNode node, EffectIntents& effectIntents)
+   at VixenModules.Effect.Effect.PixelEffectBase._PreRender(CancellationTokenSource tokenSource)
+   at Vixen.Module.Effect.EffectModuleInstanceBase.PreRender(CancellationTokenSource cancellationToken)
+01/15/2021 16:52:48.807 [Vixen.Module.Effect.EffectModuleInstanceBase] Error rendering Effect Property settings: StringOrientation: Vertical
+BallType: Bounce
+BallFill: Fade
+CenterSpeedCurve: Library Curve False, Points: [(0,20: )],[(100,20: )],
+SpeedVariationCurve: Library Curve False, Points: [(0,5: )],[(100,5: )],
+SizeCurve: Library Curve False, Points: [(0,30: )],[(100,30: )],
+BallCountCurve: Library Curve False, Points: [(0,7: )],[(100,7: )],
+BallEdgeWidthCurve: Library Curve False, Points: [(0,1: )],[(100,1: )],
+RandomMaxCurve: Library Curve False, Points: [(0,50: )],[(100,50: )],
+RandomMovement: False
+RandomRadius: False
+Collide: False
+ChangeCollideColor: True
+Colors: System.Collections.Generic.List`1[VixenModules.App.ColorGradients.ColorGradient]
+BackgroundColor: VixenModules.App.ColorGradients.ColorGradient
+LevelCurve: Library Curve False, Points: [(0,100: )],[(100,100: )],
+Information: Visit the Vixen Lights website for more information on this effect.
+InformationLink: http://www.vixenlights.com/vixen-3-documentation/sequencer/effects/balls/
+ModuleData: VixenModules.Effect.Balls.BallData
+StringCount: 1
+MaxPixelsPerString: 100
+TargetPositioning: Strings
+BaseColor: Color [Transparent]
+BaseLevelCurve: Library Curve False, Points: [(0,100: )],[(100,100: )],
+UseBaseColor: False
+HasDiscreteColors: False
+IsDirty: True
+TargetNodes: Vixen.Sys.ElementNode[]
+TimeSpan: 00:00:02
+StartTime: 00:00:07.7123766
+ParameterValues: System.Object[]
+EffectName: Balls
+EffectGroup: Pixel
+Parameters: 
+PropertyDependencies: System.Guid[]
+SupportsMedia: False
+SupportsExtensions: System.String[]
+Media: (null)
+SupportsMarks: False
+MarkCollections: (null)
+ForceGenerateVisualRepresentation: False
+InstanceId: 0e948c82-e704-42db-91bd-654bd118f671
+TypeId: 59ba6e70-dc4d-4108-b287-72adf0fd4f7c
+StaticModuleData: (null)
+Descriptor: VixenModules.Effect.Balls.BallDescriptor
+ 
+01/15/2021 17:01:54.896 [VixenModules.Output.GenericSerial.Module] COM4 could not be opened because The port 'COM4' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+01/15/2021 17:03:54.931 [VixenModules.Output.GenericSerial.Module] COM4 could not be opened because The port 'COM4' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
