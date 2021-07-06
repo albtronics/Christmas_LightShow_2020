@@ -1,0 +1,4 @@
+12/20/2020 10:08:11.398 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+12/20/2020 10:10:11.453 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+12/20/2020 10:12:11.477 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
+12/20/2020 10:14:11.490 [VixenModules.Output.GenericSerial.Module] COM11 could not be opened because The port 'COM11' does not exist..  Starting controller retry timer for controller type d22c9233-16e9-4008-a215-e577f78a7a2e 
